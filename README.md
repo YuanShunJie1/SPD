@@ -6,7 +6,7 @@ This repository provides the official implementation of our paper **"SPD: Shallo
 Backdoor attacks pose serious threats to the integrity of Deep Neural Networks (DNNs). However, most existing backdoor attacks are vulnerable to **backdoor detection methods** and **human visual inspection**. To address this, we propose a backdoor attack method named **SPD (Shallow Protecting Deep)**.
 SPD implants:
 - A **deep backdoor** in the **frequency domain**, which is imperceptible and encoded using an autoencoder.
-- A **shallow backdoor** in the **pixel domain**, which distracts the defender and protects the deep trigger.
+- A **shallow backdoor** in the **pixel domain**, which distracts the defender and protects the deep backdoor.
 
 ## 🚀 Usage
 ### 1️⃣ Step 1: Prepare Data
