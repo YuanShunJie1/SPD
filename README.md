@@ -12,9 +12,9 @@ SPD implants:
 ### 1️⃣ Step 1: Prepare Data
 Before launching the attack, make sure you have downloaded the datasets (CIFAR-10, GTSRB, ImageNet-12). You may modify the dataloader scripts if your dataset path is customized:
 ```bash
-- [`dataloader_cifar.py`](./dataloader_cifar.py)
-- [`dataloader_gtsbr.py`](./dataloader_gtsbr.py)
-- [`dataloader_imagenet12.py`](./dataloader_imagenet12.py)
+- dataloader_cifar.py
+- dataloader_gtsbr.py
+- dataloader_imagenet12.py
 ```
 
 ### 2️⃣ Step 2: Inject Backdoor
