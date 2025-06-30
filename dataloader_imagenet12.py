@@ -24,8 +24,8 @@ import torchvision.transforms as transforms
 
 
 # def ImageNetDataset(root, batch_size=256, workers=5, pin_memory=True):
-traindir = '/home/shunjie/codes/robust_training_against_backdoor/ours_new_box/DivideMix-master/ImageNet12/imagenet12/train'
-valdir = '/home/shunjie/codes/robust_training_against_backdoor/ours_new_box/DivideMix-master/ImageNet12/imagenet12/val'
+traindir = './ImageNet12/imagenet12/train'
+valdir = './ImageNet12/imagenet12/val'
 
 MEAN_IMAGENET = (0.485, 0.456, 0.406)
 STD_IMAGENET  = (0.229, 0.224, 0.225)  
